@@ -1,0 +1,43 @@
+{
+  "name": "flio_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+
+   
+  },
+  "dependencies": {
+    "@coreui/react": "^4.5.2",
+    "@next/font": "13.1.6",
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "aos": "^2.3.4",
+    "axios": "^1.3.2",
+    "bootstrap": "^5.2.3",
+    "cross-env": "^7.0.3",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "html-react-parser": "^3.0.9",
+    "next": "13.1.6",
+    "next-sitemap": "^4.0.5",
+    "react": "18.2.0",
+    "react-datepicker": "^4.10.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-loader-spinner": "^5.3.4",
+    "react-query": "^3.39.3",
+    "react-select": "^5.7.0",
+    "react-select-country-list": "^2.2.3",
+    "react-share": "^4.4.1",
+    "react-spinners": "^0.13.8",
+    "sitemap": "^7.1.1",
+    "sweetalert2": "^11.7.1",
+    "typescript": "4.9.5"
+  }
+}
