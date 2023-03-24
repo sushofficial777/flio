@@ -1,10 +1,9 @@
 import { useEffect, useState, useCallback } from "react";
-import Router from "next/router";
 import Link from "next/link";
 import parse from "html-react-parser";
 import Axios from "axios";
 import Swal from "sweetalert2";
-import Loader from "../../src/Components/Loader";
+// import Loader from "../../src/Components/Loader";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { CSpinner, CButton } from "@coreui/react";
@@ -425,7 +424,7 @@ function BlogPage({ blog }) {
           </section>
         </>
       ) : (
-        <Loader />
+       <>loading......</>
       )}
     </>
   );
